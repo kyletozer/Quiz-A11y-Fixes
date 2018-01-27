@@ -56,7 +56,6 @@ footer[role="contentinfo"] a {
 }
 
 #question {
-  background: grey;
   color: white;
   padding: 10px;
   margin: 0 0 10px 0;
@@ -79,7 +78,6 @@ footer[role="contentinfo"] a {
 
 .interface-value li {
   padding: 10px;
-  background: grey;
 }
 
 #interface li:last-child {
@@ -106,7 +104,6 @@ footer[role="contentinfo"] a {
 }
 
 #answers div {
-  background-color: grey;
   margin-bottom: 10px;
 }
 
@@ -137,4 +134,8 @@ footer[role="contentinfo"] a {
 
 #answers div:hover {
   background: #333;
+}
+
+#question, #answers div, .interface-value li {
+  background-color: #444;
 }
