@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+  /* background-image: url('images/bg.jpg'); */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  color: white;
+}
+
+header[role="banner"], footer[role="contentinfo"] {
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+}
+
+footer[role="contentinfo"] a {
+  color: white;
+  text-decoration: underline;
+}
+
+#start-quiz {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+#start-quiz.end {
+  line-height: inherit;
+}
+
+#start-quiz.end > span {
+  line-height: 1.25;
+  transform: translate(-50%, -75%);
+}
+
+#start-quiz > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start-quiz > svg {
+  height: 100%;
+}
+
+#question {
+  background: grey;
+  color: white;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+#question p {
+  margin: 0;
+}
+
+#interface ul {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#interface li {
+  float: left;
+  width: 20%;
+  margin: 0 6.575% 0 0;
+}
+
+.interface-value li {
+  padding: 10px;
+  background: grey;
+}
+
+#interface li:last-child {
+  margin-right: 0;
+}
+
+#answers, .result {
+  color: white;
+}
+
+#answers label, #answers button {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#answers li, #answers button {
+  margin-bottom: 10px;
+}
+
+#answers button:hover {
+  background: yellow;
+}
+
+#answers div {
+  background-color: grey;
+  margin-bottom: 10px;
+}
+
+#answers input {
+  margin-right: 10px;
+}
+
+.correct {
+  background-color: green !important;
+}
+
+.incorrect {
+  background-color: red !important;
+}
+
+.interface-value li.disabled {
+  opacity: .5;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#interface li {
+  font-size: 18px;
+  color: white;
+}
+
+#answers div:hover {
+  background: #333;
+}
